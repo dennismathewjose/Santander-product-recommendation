@@ -1,89 +1,90 @@
+# Customer Demographic Insights
+
 ## **Customer Distribution**
 
 This bar chart shows how customers are distributed across the bank's three main segments:
 
-**02 - PARTICULARES (Regular Individuals)**:
-- 58.33% of the customers fall into this category — the largest group.
-These are everyday banking users, likely salaried or general population.
+### 02 - PARTICULARES (Regular Individuals)
+- Represents 58.33% of the total customers — the largest group.
+- These are everyday banking users, likely salaried or general population.
 
-**03 - UNIVERSITARIO (Students):**
-- Makes up 36.17% of the customer base.
-This is a large and important demographic, likely younger individuals who are still studying or just starting financial activity.
+### 03 - UNIVERSITARIO (Students)
+- Comprises 36.17% of the customer base.
+- This group likely includes younger individuals still studying or early in their financial journey.
 
-**01 - TOP (Premium/High Net-Worth Clients):**
-- Just 4.12% of the total customers belong to this elite segment.
-Though small in number, they likely represent high-value clients for the bank.
+### 01 - TOP (Premium/High Net-Worth Clients)
+- Only 4.12% of customers belong to this high-value segment.
+- Despite the small number, they are likely to contribute disproportionately to revenue.
 
-The bank serves mostly regular and student clients. Premium clients are few but may bring high returns.
+ **Insight**:  
+The bank primarily serves regular and student clients. Premium customers are few in number but potentially more profitable.
 
-#### ***Gender Breakdown by Segment (Right Chart)***
-This chart adds another layer by showing gender distribution within each customer segment:
+---
 
-**In the '02 - PARTICULARES' (Regular) segment:**
-- Females (V) slightly outnumber  males (H).
-This suggests that women are actively engaged in standard banking services.
+## **Gender Breakdown by Segment**
 
-**In the '03 - UNIVERSITARIO' (Student) segment:**
-- Males (H) outnumber females (V).
-The bank may explore why fewer female students are active — perhaps offering tailored student programs could help.
+This chart highlights how gender is distributed within each segment:
 
-**In the '01 - TOP' (Premium) segment:**
-- Females (V) again slightly outnumber males, though the overall numbers are low.
-Indicates an opportunity to explore high-value services for women in the premium category.
+### PARTICULARES (Regular Individuals)
+- Females slightly outnumber males.
+- Indicates strong engagement of women in general banking services.
 
-There are gender differences across customer types, and this can help design more inclusive and targeted banking products.
+### UNIVERSITARIO (Students)
+- Males outnumber females.
+- Opportunity for the bank to understand and target why fewer female students are active.
 
-## Age Distribution
+### TOP (Premium Clients)
+- Females again slightly outnumber males.
+- Suggests room to develop premium offerings focused on women clients.
 
+ **Insight**:  
+There are subtle gender differences across segments. Understanding these can aid in designing more inclusive and personalized banking products.
 
-**Plot Type: Violin Plot**
+---
 
-Purpose: To visualize the distribution of customer age across different customer segments and by gender.
+## **Age Distribution (Violin Plot)**
 
-1. College Students Segment
-Highly concentrated around ages 20 to 25, as expected.
+**Purpose**: To visualize how age is distributed within each customer segment, separated by gender.
 
-Distribution is tight and symmetric, indicating a homogeneous age group.
+### 1. UNIVERSITARIO (Students)
+- Ages are tightly packed between 20 and 25.
+- Distribution is symmetric and indicates a homogeneous age group.
+- Males show a slightly higher density.
+- Few outliers — minimal data concerns.
 
-Both males and females have similar age profiles in this segment, with slightly higher density for males.
+**Insight**:  
+Product design should cater to student needs — digital tools, savings, and education loans.
 
-Presence of a few outliers suggests minimal data quality issues but nothing substantial.
+---
 
-Insight:
-Marketing and product design for this group can focus on student-related services like education loans, savings plans, or digital banking tools.
+### 2. PARTICULARES (Regular Individuals)
+- Age spans from early 20s to 90+.
+- Peak is in early 40s; distribution is slightly right-skewed.
+- Females show broader spread into older ages.
 
-**2. Individuals Segment**
+**Insight**:  
+This diverse group benefits from varied services — from home loans to retirement savings. Age-aware marketing can be useful.
 
-Age spread ranges from early 20s to well over 90, with a significant presence in 30s to 60s.
+---
 
-The mode (peak) lies around the early 40s.
+### 3. TOP (Premium Clients)
+- Concentrated in 40–60 age range.
+- Symmetric distribution, with some clients even 100+.
+- Females show slightly broader spread.
 
-The spread is slightly right-skewed, with more customers in the older range.
+**Insight**:  
+This group is financially mature. Suitable offerings include wealth management, estate planning, and tailored advisory services.
 
-Gender comparison shows females (V) have a wider age spread, especially into higher age brackets.
+---
 
-Insight:
-This group represents the general population — diverse in age and likely financial needs. Products like mortgages, retirement plans, and investment services should be tailored with age-aware targeting.
+## General Observations
 
-**3. VIP Segment**
+- **Outliers**: Customers over 120 exist in some segments and may require data validation.
+- **Gender Trends**: Females show wider age ranges, particularly at older ages.
+- **Business Relevance**: Age and gender profiles should guide customer segmentation, product design, and communication strategies.
 
-Concentrated in the 40–60 age range, with a long tail stretching to 100+.
+---
 
-These are likely high net-worth individuals, in or near their peak earning years.
-
-Distribution is symmetric and well-spread, indicating mature clients.
-
-Gender profiles are similar but again, females show a slightly broader range in higher ages.
-
-Insight:
-VIP clients are older and likely more financially stable. Premium services like wealth management, personalized advisors, and estate planning could be attractive.
-
-General Observations
-Age Outliers (120+): Appear across Individual and VIP groups. These should be validated as possible data errors.
-
-Gender Differences: Minimal in overall shape, but females tend to span slightly broader age ranges, especially in older age brackets.
-
-Business Application: Customer segmentation strategies should consider age range overlap and differences when personalizing offers. Gender-specific insights can be used to further fine-tune communication and product positioning.
 
 ## Income Distribution by Segment and Gender – Detailed Analysis
 
@@ -355,7 +356,7 @@ This treemap visualizes the distribution of **product ownership** by **province*
 
 ---
 
-### 🧠 Insight:
+### Insight:
 
 The treemap validates the central role of current accounts in the bank's product suite and reveals regional disparities in product adoption. Provinces with a **smaller mix of products** may represent untapped potential, whereas provinces like Madrid or Barcelona are **mature markets** where **new product launches or premium services** might be more effective.
 
